@@ -14,7 +14,15 @@
         var cur = document.documentElement.getAttribute('lang') === 'zh' ? 'zh' : 'en';
         var next = cur === 'zh' ? 'en' : 'zh';
         localStorage.setItem('lang', next);
-        applyLang(next);
+        document.body.classList.add('lang-fading');
+        window.setTimeout(function () {
+          applyLang(next);
+          window.requestAnimationFrame(function () {
+            window.requestAnimationFrame(function () {
+              document.body.classList.remove('lang-fading');
+            });
+          });
+        }, 180);
       });
     }
     var cur = document.documentElement.getAttribute('lang');

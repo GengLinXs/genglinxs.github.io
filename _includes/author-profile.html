@@ -19,8 +19,6 @@
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio en-only">{{ author.bio }}</p>{% endif %}
     {% if author.bio_zh %}<p class="author__bio zh-only">{{ author.bio_zh }}</p>{% endif %}
-    {% if author.motto %}<p class="author__motto en-only">{{ author.motto }}</p>{% endif %}
-    {% if author.motto_zh %}<p class="author__motto zh-only">{{ author.motto_zh }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -31,7 +29,7 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>

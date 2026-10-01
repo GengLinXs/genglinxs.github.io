@@ -4,8 +4,5 @@
   {% endif %}
   <div class="pub-card__body">
     <div class="pub-citation">{{ pub.citation | markdownify }}</div>
-    {% if pub.paperurl %}
-      <p class="pub-links"><a href="{{ pub.paperurl }}">DOI</a></p>
-    {% endif %}
   </div>
 </div>

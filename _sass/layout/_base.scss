@@ -13,6 +13,24 @@ html {
 html[lang="zh"] .en-only { display: none !important; }
 html[lang="en"] .zh-only { display: none !important; }
 
+/* University logo in section headings */
+.uni-logo {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.12em;
+  margin-right: 0.4em;
+  object-fit: contain;
+}
+
+/* Crossfade on language switch */
+body {
+  transition: opacity 0.18s ease;
+}
+
+body.lang-fading {
+  opacity: 0;
+}
+
 body {
   /* Set via _themes.scss */
   color: var(--global-text-color);
@@ -22,7 +40,7 @@ body {
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.5;
+  line-height: 1.4;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -31,7 +49,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
+  margin: 1.4em 0 0.4em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -67,7 +85,7 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.1em;
 }
 
 u,
