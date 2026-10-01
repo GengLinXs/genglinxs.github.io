@@ -1,6 +1,7 @@
 ---
 permalink: /resources/
 title: "Resources"
+title_zh: "资源"
 author_profile: true
 ---
 

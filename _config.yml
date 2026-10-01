@@ -25,11 +25,14 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Haotian Yang"
+  name_zh          : "杨昊天"
   pronouns         : # example: "she/her"
   bio              : "I'm young, scrappy and hungry."
   bio_zh           : "我要求一个确定的结果一个准确的参数，一套正确的模型，一组漂亮的数据，一串精巧的推理，一行简洁的公式，一篇成功的论文一个完整的，精密的自己"
   location         : "Beijing, China"
+  location_zh      : "中国北京"
   employer         : "Tsinghua University"
+  employer_zh      : "清华大学"
   employer_url     : "https://www.tsinghua.edu.cn/"
   uri              : # URL
   email            : "genglinxs_0319@163.com"

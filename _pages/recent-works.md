@@ -1,6 +1,7 @@
 ---
 permalink: /recent-works/
 title: "Research Notes & Thoughts"
+title_zh: "研究笔记与随想"
 author_profile: true
 ---
 

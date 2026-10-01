@@ -1,6 +1,7 @@
 ---
 permalink: /honors-awards/
 title: "Honors & Awards"
+title_zh: "荣誉奖项"
 author_profile: true
 ---
 

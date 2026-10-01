@@ -18,6 +18,15 @@ body {
   transition: opacity 0.18s ease;
 }
 
+/* University logo in section headings (font-sized, aligned with name) */
+.uni-logo {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.08em;
+  margin-right: 0.3em;
+  object-fit: contain;
+}
+
 body.lang-fading {
   opacity: 0;
 }
