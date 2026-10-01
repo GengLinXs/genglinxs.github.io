@@ -5,9 +5,13 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  
+
   scroll-behavior: smooth;
 }
+
+/* Bilingual toggle: show one language, hide the other */
+html[lang="zh"] .en-only { display: none !important; }
+html[lang="en"] .zh-only { display: none !important; }
 
 body {
   /* Set via _themes.scss */
@@ -345,6 +349,66 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+/* ==========================================================================
+   PUBLICATION CARDS (graphical abstract left, citation right)
+   ========================================================================== */
+
+.pub-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+  margin: 1.25em 0 1.75em;
+  padding-bottom: 1.25em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-card__img {
+  width: 170px;
+  max-width: 28%;
+  flex-shrink: 0;
+  border-radius: $border-radius;
+  object-fit: contain;
+  background: var(--global-footer-bg-color);
+}
+
+.pub-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-citation {
+  margin: 0;
+  line-height: 1.55;
+
+  > p {
+    margin: 0;
+  }
+}
+
+.pub-links {
+  margin: 0.35em 0 0;
+  font-size: $type-size-6;
+
+  a {
+    font-family: $sans-serif;
+  }
+}
+
+@media (max-width: $small) {
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-card__img {
+    width: 100%;
+    max-width: 220px;
+  }
 }
 
 /* ==========================================================================

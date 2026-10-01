@@ -17,7 +17,10 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio en-only">{{ author.bio }}</p>{% endif %}
+    {% if author.bio_zh %}<p class="author__bio zh-only">{{ author.bio_zh }}</p>{% endif %}
+    {% if author.motto %}<p class="author__motto en-only">{{ author.motto }}</p>{% endif %}
+    {% if author.motto_zh %}<p class="author__motto zh-only">{{ author.motto_zh }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">

@@ -1,0 +1,11 @@
+<div class="pub-card">
+  {% if pub.image %}
+    <img class="pub-card__img" src="{{ pub.image }}" alt="{{ pub.title }}" loading="lazy">
+  {% endif %}
+  <div class="pub-card__body">
+    <div class="pub-citation">{{ pub.citation | markdownify }}</div>
+    {% if pub.paperurl %}
+      <p class="pub-links"><a href="{{ pub.paperurl }}">DOI</a></p>
+    {% endif %}
+  </div>
+</div>

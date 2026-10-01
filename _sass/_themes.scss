@@ -14,8 +14,8 @@ $paragraph-indent           : false; // true, false (default)
 $indent-var                 : 1.3em;
 
 /* System typefaces */
-$serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif                      : "Crimson Pro", "Minion Pro", "Noto Serif SC", "STFangsong", "FangSong", "华文仿宋", Georgia, "Times New Roman", serif;
+$sans-serif                 : "Roboto", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "微软雅黑", -apple-system, ".SFNSText-Regular", "San Francisco", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -39,7 +39,7 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
-$global-font-family         : $sans-serif;
+$global-font-family         : $serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 

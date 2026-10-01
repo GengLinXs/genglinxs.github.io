@@ -1,11 +1,10 @@
 ---
 title: "Integrating Dry-Processing and Pre-Sodiation Enables High-Energy Sodium Ion Batteries"
 collection: publications
-category: manuscripts
+pubtype: journal
 permalink: /publication/2025-12-01-dry-processing-pre-sodiation
-excerpt: 'Dry-processing and pre-sodiation for high-energy sodium-ion batteries.'
-date: 2025-12-01
-venue: 'Nature Communications (JCRQ1, IF=15.7)'
-citation: 'Nan Qin, Yifan Li, Haotian Yang et al. Integrating Dry-Processing and Pre-Sodiation Enables High-Energy Sodium Ion Batteries. <i>Nature Communications</i> (JCRQ1, IF=15.7), Accept.'
+date: 2025-12-13
+image: /images/ga/dry-processing-pre-sodiation.png
+citation: 'N. Qin, Y. Li, **H. Yang**, J. Chen, C. Feng, et al. Integrating Dry-Processing and Pre-Sodiation Enables High-Energy Sodium Ion Batteries. *Nature Communications*, 2025, 16: 11474.'
 paperurl: 'https://doi.org/10.1038/s41467-025-66492-3'
 ---

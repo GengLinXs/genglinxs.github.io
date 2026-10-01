@@ -1,5 +1,27 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  (function () {
+    function applyLang(l) {
+      document.documentElement.setAttribute('lang', l);
+      var label = document.getElementById('lang-label');
+      if (label) { label.textContent = (l === 'zh') ? 'EN' : '中文'; }
+    }
+    var btn = document.getElementById('lang-toggle');
+    if (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        var cur = document.documentElement.getAttribute('lang') === 'zh' ? 'zh' : 'en';
+        var next = cur === 'zh' ? 'en' : 'zh';
+        localStorage.setItem('lang', next);
+        applyLang(next);
+      });
+    }
+    var cur = document.documentElement.getAttribute('lang');
+    applyLang(cur === 'zh' ? 'zh' : 'en');
+  })();
+</script>
+
 {% include analytics.html %}
 
 {% include comments-providers/scripts.html %}

@@ -1,11 +1,9 @@
 ---
 title: "Polymer Side-Chain Electronic Effects Regulating the Solvation Sheath for Low-Temperature and High-Voltage Lithium Metal Batteries"
 collection: publications
-category: manuscripts
+pubtype: journal
 permalink: /publication/2026-03-01-polymer-side-chain-solvation
-excerpt: 'Polymer side-chain effects regulating the solvation sheath for lithium metal batteries.'
-date: 2026-03-01
-venue: 'Advanced Functional Materials (JCRQ1, IF=19.9)'
-citation: 'Xianbin Wu#, Zhenxiang Zhu#, Haotian Yang et al. Polymer Side-Chain Electronic Effects Regulating the Solvation Sheath for Low-Temperature and High-Voltage Lithium Metal Batteries. <i>Advanced Functional Materials</i> (JCRQ1, IF=19.9), Accept.'
+date: 2026-09-24
+citation: 'X. Wu#, Z. Zhu#, **H. Yang**, D. Zhang, Z. Geng, et al. Polymer Side-Chain Electronic Effects Regulating the Solvation Sheath for Low-Temperature and High-Voltage Lithium Metal Batteries. *Advanced Functional Materials*, 2026, e78605.'
 paperurl: 'https://doi.org/10.1002/adfm.78605'
 ---

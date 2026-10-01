@@ -27,6 +27,9 @@ author:
   name             : "Haotian Yang"
   pronouns         : # example: "she/her"
   bio              : "Senior undergraduate student at Tongji University, joining Tsinghua University in 2027."
+  bio_zh           : "同济大学本科生，2027 年加入清华大学。"
+  motto            : "I'm young, scrappy and hungry."
+  motto_zh         : "我要求一个确定的结果一个准确的参数，一套正确的模型，一组漂亮的数据，一串精巧的推理，一行简洁的公式，一篇成功的论文一个完整的，精密的自己"
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
@@ -38,7 +41,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=gf4ecNcAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0009-0000-0830-7603"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL

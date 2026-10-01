@@ -79,3 +79,24 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* Site logo next to the masthead title */
+.site-title-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.site-logo {
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 50%;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+/* Language toggle label */
+#lang-toggle a {
+  font-size: $type-size-5;
+  font-weight: 600;
+}

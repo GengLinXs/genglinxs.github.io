@@ -1,11 +1,10 @@
 ---
-title: "Reversible Construction of “Rigid-Flexible” Layered-Tunnel Heterostructures Endowing MnO2 Cathode Robust Zinc Ions Storage"
+title: "Reversible Construction of “Rigid-Flexible” Layered-Tunnel Heterostructures Endowing MnO2 Cathode with Robust Zinc Ion Storage"
 collection: publications
-category: manuscripts
+pubtype: journal
 permalink: /publication/2025-11-01-rigid-flexible-heterostructures
-excerpt: 'Rigid-flexible heterostructures for MnO2 cathodes.'
-date: 2025-11-01
-venue: 'Journal of Energy Chemistry (JCRQ1, IF=14.9)'
-citation: 'Z. Song, M. Cui, Y. Zhang, N. Zhang, H. Yang, K. Ren, L. Chen, Z.-L. Liu*, Y. Xie*, T.-F. Yi*. Reversible Construction of “Rigid-Flexible” Layered-Tunnel Heterostructures Endowing MnO2 Cathode Robust Zinc Ions Storage. <i>Journal of Energy Chemistry</i> (JCRQ1, IF=14.9), Accept.'
+date: 2026-03-01
+image: /images/ga/rigid-flexible-heterostructures.jpg
+citation: 'Z. Song, M. Cui, Y. Zhang, N. Zhang, **H. Yang**, K. Ren, L. Chen, et al. Reversible Construction of “Rigid-Flexible” Layered-Tunnel Heterostructures Endowing MnO2 Cathode with Robust Zinc Ion Storage. *Journal of Energy Chemistry*, 2026, 114: 835–847.'
 paperurl: 'https://doi.org/10.1016/j.jechem.2025.11.003'
 ---
