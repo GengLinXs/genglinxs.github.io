@@ -20,8 +20,10 @@ body {
 
 /* University logo in section headings (font-sized, aligned with name) */
 .uni-logo {
-  width: 1em;
-  height: 1em;
+  width: 1em !important;
+  height: 1em !important;
+  max-width: 1em;
+  max-height: 1em;
   vertical-align: -0.08em;
   margin-right: 0.3em;
   object-fit: contain;
