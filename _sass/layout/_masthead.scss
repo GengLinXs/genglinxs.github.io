@@ -94,3 +94,11 @@
 .greedy-nav .visible-links > li:nth-child(3) { min-width: 8em; }
 .greedy-nav .visible-links > li:nth-child(4) { min-width: 12em; }
 .greedy-nav .visible-links > li:nth-child(5) { min-width: 5em; }
+
+/* Center shortened labels within their fixed slots */
+.greedy-nav .visible-links > li:nth-child(2) a,
+.greedy-nav .visible-links > li:nth-child(3) a,
+.greedy-nav .visible-links > li:nth-child(4) a,
+.greedy-nav .visible-links > li:nth-child(5) a {
+  text-align: center;
+}
