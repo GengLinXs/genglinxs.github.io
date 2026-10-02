@@ -9,14 +9,14 @@ author_profile: true
 {% include base_path %}
 
 <p class="en-only">You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a> and <a href="{{ site.author.researchgate }}">ResearchGate</a>.</p>
-<p class="zh-only">你可以在 <a href="{{ site.author.googlescholar }}">Google Scholar</a> 和 <a href="{{ site.author.researchgate }}">ResearchGate</a> 上查看我的全部工作。</p>
+<p class="zh-only">你可以在 <a href="{{ site.author.googlescholar }}">Google Scholar</a> 和 <a href="{{ site.author.researchgate }}">ResearchGate</a> 上找到我的全部工作。</p>
 
 {% assign journals = site.publications | where: "pubtype", "journal" | sort: "date" | reverse %}
 {% assign preprints = site.publications | where: "pubtype", "preprint" | sort: "date" | reverse %}
 {% assign patents = site.publications | where: "pubtype", "patent" | sort: "date" | reverse %}
 
-<h2 class="en-only">Journal Papers</h2>
-<h2 class="zh-only">期刊论文</h2>
+<h2 class="en-only">Peer-reviewed Papers</h2>
+<h2 class="zh-only">已发表论文</h2>
 
 {% assign year_shown = '' %}
 {% for pub in journals %}

@@ -1,0 +1,19 @@
+{% if item.pubtype == 'journal' %}
+  {% assign badge = 'Paper' %}
+  {% assign badge_url = '/publications/' %}
+  {% assign cover = item.image %}
+  {% assign desc = item.citation | markdownify | strip_html | truncate: 90 %}
+{% else %}
+  {% assign badge = 'Blog' %}
+  {% assign badge_url = '/recent-works/' %}
+  {% assign cover = item.header.image %}
+  {% assign desc = item.excerpt %}
+{% endif %}
+<div class="news-card">
+  {% if cover %}<a href="{{ item.url }}" class="news-card__cover"><img src="{{ cover }}" alt="{{ item.title }}" loading="lazy"></a>{% endif %}
+  <div class="news-card__body">
+    <div class="news-card__badge"><a href="{{ badge_url }}" class="news-badge news-badge--{{ badge | downcase }}">{{ badge }}</a></div>
+    <a href="{{ item.url }}" class="news-card__title">{{ item.title }}</a>
+    {% if desc %}<p class="news-card__excerpt">{{ desc }}</p>{% endif %}
+  </div>
+</div>

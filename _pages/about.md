@@ -78,7 +78,7 @@ Areas that fascinate me include the simulation, design, and optimization of rech
 
 <div class="zh-only" markdown="1">
 
-我目前是同济大学的一名本科生，预计于2027年进入清华大学直接攻读博士学位。
+我目前是同济大学的一名本科生，预计将于2027年进入清华大学直接攻读博士学位。
 
 ## 教育经历
 
@@ -86,20 +86,20 @@ Areas that fascinate me include the simulation, design, and optimization of rech
 
 **博士研究生** · *2027.09 – 2032.06*
 
-- 化学工程与技术
+- 主修化学工程与技术
 
 ### <img src="/images/logos/ntu.svg" class="uni-logo" alt=""> 台湾大学
 
 **交换生** · *2024.02 – 2024.06*
 
-- 机械工程学
+- 主修机械工程学
 - GPA 3.67 / 4.30
 
 ### <img src="/images/logos/tongji.svg" class="uni-logo" alt=""> 同济大学
 
 **工学学士** · *2022.09 – 2027.06*
 
-- 车辆工程（汽车），车用动力工程方向
+- 主修车辆工程（汽车），车用动力工程方向
 - GPA 4.30 / 5.00 · 综合排名 15/157
 
 ## 科研经历
@@ -117,7 +117,8 @@ Areas that fascinate me include the simulation, design, and optimization of rech
 
 **访问学生** · *2026.05 – 2026.07*
 
-- 获新加坡科研实习计划（IRIS@NUS）全额奖学金，下一代材料设计与工程（DENG）课题组，导师 Assist. Prof. Zeyu Deng。
+- 获新加坡科研实习项目（IRIS@NUS）全额奖学金资助。
+- 下一代材料设计与工程（DENG）课题组，导师 Assist. Prof. Zeyu Deng。
 - 固态电解质中压力诱导的电流集中与缺陷，以及锂枝晶生长的相场法模拟。
 
 ### <img src="/images/logos/tsinghua.svg" class="uni-logo" alt=""> 清华大学 — 车辆与运载学院
@@ -141,4 +142,20 @@ Areas that fascinate me include the simulation, design, and optimization of rech
 - 集成电化学动力学课题组，导师金黎明副教授。
 - 超厚电极的电化学动力学改性；无溶剂电极制备；用于电池机理解析与性能预测的有限元仿真。
 
+</div>
+
+<h2 class="en-only">News</h2>
+<h2 class="zh-only">最新动态</h2>
+
+{% assign papers = site.publications | where: "pubtype", "journal" %}
+{% assign posts = site.posts %}
+{% assign news = '' | split: '' %}
+{% for p in papers %}{% assign news = news | push: p %}{% endfor %}
+{% for p in posts %}{% assign news = news | push: p %}{% endfor %}
+{% assign news = news | sort: "date" | reverse %}
+
+<div class="news-grid">
+{% for item in news limit: 3 %}
+  {% include news-card.html %}
+{% endfor %}
 </div>

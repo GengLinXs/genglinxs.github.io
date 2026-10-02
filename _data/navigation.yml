@@ -5,11 +5,11 @@ main:
     url: /publications/
 
   - title: "Honors & Awards"
-    title_zh: "荣誉奖项"
+    title_zh: "荣誉获奖"
     url: /honors-awards/
 
-  - title: "Research Notes & Thoughts"
-    title_zh: "研究笔记与随想"
+  - title: "Research Notes & Blogs"
+    title_zh: "研究笔记与随笔"
     url: /recent-works/
 
   - title: "Resources"

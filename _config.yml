@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Haotian Yang 杨昊天"
+title                    : "Haotian Yang丨杨昊天"
 title_separator          : "-"
 name                     : &name "Haotian Yang"
 description              : &description "Haotian Yang's academic homepage"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -30,7 +30,7 @@ author:
   bio              : "I'm young, scrappy and hungry."
   bio_zh           : "山青花欲燃"
   location         : "Beijing, China"
-  location_zh      : "中国北京"
+  location_zh      : "北京"
   employer         : "Tsinghua University"
   employer_zh      : "清华大学"
   employer_url     : "https://www.tsinghua.edu.cn/"
@@ -48,7 +48,7 @@ author:
   ssrn             : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Haotian-Yang-21"
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57467480000"
   zotero           : # URL
 
 
@@ -69,13 +69,13 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "genglinxs"
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "昊天-杨-bb0380343"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
-  soundcloud       : # Username
+  soundcloud       : "易木木木木yo"
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
@@ -85,7 +85,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : "狂炫三百斤板栗"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
