@@ -12,8 +12,8 @@ My research interest covers a wide range of fields, including rechargeable ion b
 You can find some of my formatted notes on my personal WeChat official account by scanning the following QR codes:
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5em; align-items: center;">
-  <img src="/images/wechat-qr-1.jpg" alt="WeChat official account QR code" style="width: 160px; max-width: 45%;" />
-  <img src="/images/wechat-qr-2.jpg" alt="WeChat official account" style="width: 160px; max-width: 45%;" />
+  <img src="/images/wechat-qr-1.jpg" alt="WeChat official account QR code" style="height: 180px; width: auto;" />
+  <img src="/images/wechat-qr-2.jpg" alt="WeChat official account" style="height: 180px; width: auto;" />
 </div>
 
 </div>
@@ -25,8 +25,8 @@ You can find some of my formatted notes on my personal WeChat official account b
 你可以扫描以下二维码，在我的个人微信公众号上查看一些随笔和研究笔记：
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.5em; align-items: center;">
-  <img src="/images/wechat-qr-1.jpg" alt="微信公众号二维码" style="width: 160px; max-width: 45%;" />
-  <img src="/images/wechat-qr-2.jpg" alt="微信公众号" style="width: 160px; max-width: 45%;" />
+  <img src="/images/wechat-qr-1.jpg" alt="微信公众号二维码" style="height: 180px; width: auto;" />
+  <img src="/images/wechat-qr-2.jpg" alt="微信公众号" style="height: 180px; width: auto;" />
 </div>
 
 </div>
