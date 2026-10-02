@@ -92,7 +92,7 @@
 /* Keep navigation link positions stable across language switches (sized to English labels) */
 .greedy-nav .visible-links > li:nth-child(2) { min-width: 6.5em; }
 .greedy-nav .visible-links > li:nth-child(3) { min-width: 8em; }
-.greedy-nav .visible-links > li:nth-child(4) { min-width: 12em; }
+.greedy-nav .visible-links > li:nth-child(4) { min-width: 5.5em; }
 .greedy-nav .visible-links > li:nth-child(5) { min-width: 5em; }
 
 /* Center shortened labels within their fixed slots */

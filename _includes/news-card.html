@@ -20,5 +20,6 @@
     <div class="news-card__badge"><a href="{{ badge_url }}" class="news-badge news-badge--{{ badge | downcase }}">{{ badge }}</a></div>
     <a href="{{ item.url }}" class="news-card__title">{{ item.title }}</a>
     {% if desc %}<p class="news-card__excerpt">{{ desc }}</p>{% endif %}
+    {% if item.date %}<p class="news-card__date">{{ item.date | date: "%Y-%m-%d" }}</p>{% endif %}
   </div>
 </div>
