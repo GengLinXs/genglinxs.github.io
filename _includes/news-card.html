@@ -6,12 +6,12 @@
 {% elsif item.type == 'Note' %}
   {% assign badge = 'Note' %}
   {% assign badge_url = '/resources/' %}
-  {% assign cover = item.header.image %}
+  {% assign cover = item.cover %}
   {% assign desc = item.excerpt %}
 {% else %}
   {% assign badge = 'Blog' %}
   {% assign badge_url = '/recent-works/' %}
-  {% assign cover = item.header.image %}
+  {% assign cover = item.cover %}
   {% assign desc = item.excerpt %}
 {% endif %}
 <div class="news-card">
