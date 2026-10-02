@@ -2,6 +2,8 @@
 
 {% if page.header.image contains "://" %}
   {% capture img_path %}{{ page.header.image }}{% endcapture %}
+{% elsif page.header.image contains "/images/" %}
+  {% capture img_path %}{{ page.header.image | prepend: base_path }}{% endcapture %}
 {% else %}
   {% capture img_path %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endcapture %}
 {% endif %}
