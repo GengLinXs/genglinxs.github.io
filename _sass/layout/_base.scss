@@ -41,11 +41,14 @@ body {
 
 .news-card__cover {
   flex: 0 0 220px;
+  align-self: flex-start;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
 
   img {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 10;
+    height: 100%;
     object-fit: cover;
   }
 }
@@ -114,10 +117,10 @@ body {
 
   .news-card__cover {
     flex: 0 0 auto;
+    aspect-ratio: 4 / 3;
 
     img {
-      height: auto;
-      aspect-ratio: 16 / 9;
+      height: 100%;
     }
   }
 }
