@@ -75,7 +75,7 @@ author:
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
-  soundcloud       : "易木木木木yo"
+  soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
@@ -85,7 +85,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : "狂炫三百斤板栗"
+  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

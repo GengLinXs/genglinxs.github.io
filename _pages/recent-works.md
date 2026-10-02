@@ -36,7 +36,9 @@ You can find some of my formatted notes on my personal WeChat official account b
 
 <div class="news-grid">
 {% for post in site.posts %}
-  {% assign item = post %}
-  {% include news-card.html %}
+  {% if post.type == 'Blog' %}
+    {% assign item = post %}
+    {% include news-card.html %}
+  {% endif %}
 {% endfor %}
 </div>

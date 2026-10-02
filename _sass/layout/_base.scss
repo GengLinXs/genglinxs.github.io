@@ -23,15 +23,15 @@ body {
    ========================================================================== */
 
 .news-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
   margin: 1em 0 1.5em;
 }
 
 .news-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   overflow: hidden;
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
@@ -39,21 +39,22 @@ body {
 }
 
 .news-card__cover {
-  display: block;
+  flex: 0 0 200px;
 
   img {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 10;
+    height: 100%;
     object-fit: cover;
   }
 }
 
 .news-card__body {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 0.4em;
-  padding: 0.7em 0.9em 0.9em;
+  padding: 0.8em 1em;
 }
 
 .news-card__title {
@@ -99,8 +100,17 @@ body {
 }
 
 @media (max-width: $small) {
-  .news-grid {
-    grid-template-columns: 1fr;
+  .news-card {
+    flex-direction: column;
+  }
+
+  .news-card__cover {
+    flex: 0 0 auto;
+
+    img {
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
   }
 }
 

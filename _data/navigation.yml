@@ -8,8 +8,8 @@ main:
     title_zh: "荣誉获奖"
     url: /honors-awards/
 
-  - title: "Research Notes & Blogs"
-    title_zh: "研究笔记与随笔"
+  - title: "Blogs"
+    title_zh: "随笔"
     url: /recent-works/
 
   - title: "Resources"
