@@ -2,7 +2,7 @@
   {% assign badge = 'Paper' %}
   {% assign badge_url = '/publications/' %}
   {% assign cover = item.image %}
-  {% assign desc = item.citation | markdownify | strip_html | truncate: 90 %}
+  {% assign desc = item.short_citation | markdownify | strip_html %}
 {% elsif item.type == 'Note' %}
   {% assign badge = 'Note' %}
   {% assign badge_url = '/resources/' %}
